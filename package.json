@@ -1,0 +1,10 @@
+{
+  "name": "ai-tab-status",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Userscript favicon status indicator for ChatGPT, Claude and Claude Code.",
+  "scripts": {
+    "check": "node --check src/ai-tab-status.user.js"
+  },
+  "license": "MIT"
+}
