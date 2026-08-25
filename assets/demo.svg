@@ -1,23 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="980" height="250" viewBox="0 0 980 250">
-  <rect width="980" height="250" rx="22" fill="#111827"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="330" viewBox="0 0 980 330">
+  <rect width="980" height="330" rx="22" fill="#111827"/>
+
   <text x="42" y="48" fill="#f9fafb" font-family="Arial, sans-serif" font-size="24" font-weight="700">AI Tab Status</text>
-  <text x="42" y="78" fill="#9ca3af" font-family="Arial, sans-serif" font-size="16">See which AI is still working without reopening the tab.</text>
+  <text x="42" y="78" fill="#9ca3af" font-family="Arial, sans-serif" font-size="16">Every supported AI can be ready, working, or finished.</text>
 
-  <rect x="42" y="105" width="280" height="92" rx="14" fill="#1f2937"/>
-  <circle cx="82" cy="151" r="23" fill="#f59e0b" stroke="#ffffff" stroke-width="3"/>
-  <text x="82" y="158" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="24" font-weight="700">G</text>
-  <text x="120" y="145" fill="#f9fafb" font-family="Arial, sans-serif" font-size="18" font-weight="700">ChatGPT</text>
-  <text x="120" y="170" fill="#f59e0b" font-family="Arial, sans-serif" font-size="15">WORKING</text>
+  <text x="330" y="118" text-anchor="middle" fill="#9ca3af" font-family="Arial, sans-serif" font-size="14" font-weight="700">READY</text>
+  <text x="560" y="118" text-anchor="middle" fill="#f59e0b" font-family="Arial, sans-serif" font-size="14" font-weight="700">WORKING</text>
+  <text x="790" y="118" text-anchor="middle" fill="#22c55e" font-family="Arial, sans-serif" font-size="14" font-weight="700">FINISHED</text>
 
-  <rect x="350" y="105" width="280" height="92" rx="14" fill="#1f2937"/>
-  <circle cx="390" cy="151" r="23" fill="#22c55e" stroke="#ffffff" stroke-width="3"/>
-  <text x="390" y="158" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="24" font-weight="700">C</text>
-  <text x="428" y="145" fill="#f9fafb" font-family="Arial, sans-serif" font-size="18" font-weight="700">Claude Code</text>
-  <text x="428" y="170" fill="#22c55e" font-family="Arial, sans-serif" font-size="15">FINISHED</text>
+  <rect x="42" y="135" width="896" height="68" rx="14" fill="#1f2937"/>
+  <text x="72" y="176" fill="#f9fafb" font-family="Arial, sans-serif" font-size="18" font-weight="700">ChatGPT</text>
 
-  <rect x="658" y="105" width="280" height="92" rx="14" fill="#1f2937"/>
-  <circle cx="698" cy="151" r="23" fill="#6b7280" stroke="#ffffff" stroke-width="3"/>
-  <text x="698" y="158" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="24" font-weight="700">C</text>
-  <text x="736" y="145" fill="#f9fafb" font-family="Arial, sans-serif" font-size="18" font-weight="700">Claude</text>
-  <text x="736" y="170" fill="#9ca3af" font-family="Arial, sans-serif" font-size="15">READY</text>
+  <circle cx="330" cy="169" r="21" fill="#6b7280" stroke="#ffffff" stroke-width="3"/>
+  <text x="330" y="176" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="22" font-weight="700">G</text>
+
+  <circle cx="560" cy="169" r="21" fill="#f59e0b" stroke="#ffffff" stroke-width="3"/>
+  <text x="560" y="176" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="22" font-weight="700">G</text>
+
+  <circle cx="790" cy="169" r="21" fill="#22c55e" stroke="#ffffff" stroke-width="3"/>
+  <text x="790" y="176" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="22" font-weight="700">G</text>
+
+  <rect x="42" y="218" width="896" height="68" rx="14" fill="#1f2937"/>
+  <text x="72" y="259" fill="#f9fafb" font-family="Arial, sans-serif" font-size="18" font-weight="700">Claude Code</text>
+
+  <circle cx="330" cy="252" r="21" fill="#6b7280" stroke="#ffffff" stroke-width="3"/>
+  <text x="330" y="259" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="22" font-weight="700">C</text>
+
+  <circle cx="560" cy="252" r="21" fill="#f59e0b" stroke="#ffffff" stroke-width="3"/>
+  <text x="560" y="259" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="22" font-weight="700">C</text>
+
+  <circle cx="790" cy="252" r="21" fill="#22c55e" stroke="#ffffff" stroke-width="3"/>
+  <text x="790" y="259" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="22" font-weight="700">C</text>
+
+  <text x="42" y="312" fill="#6b7280" font-family="Arial, sans-serif" font-size="13">Claude Web uses the same C indicator.</text>
 </svg>
