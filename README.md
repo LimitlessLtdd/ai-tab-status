@@ -6,17 +6,18 @@ AI Tab Status is a lightweight userscript that turns the browser tab favicon int
 
 ![AI Tab Status demo](assets/demo.svg)
 
+Every supported AI interface can move through the same three states: **ready**, **working**, and **finished**.
+
 ## Why
 
 When you run ChatGPT and Claude Code in parallel, checking both tabs repeatedly wastes time. AI Tab Status makes the state visible at a glance:
 
-| Favicon | State |
-| --- | --- |
-| ⚪ `G` / `C` | Ready / idle |
-| 🟠 `G` / `C` | Working |
-| 🟢 `G` / `C` | Finished |
+| Interface | Ready / idle | Working | Finished |
+| --- | --- | --- | --- |
+| ChatGPT | ⚪ `G` | 🟠 `G` | 🟢 `G` |
+| Claude Code | ⚪ `C` | 🟠 `C` | 🟢 `C` |
 
-`G` = ChatGPT, `C` = Claude / Claude Code.
+Claude Web uses the same `C` indicator and the same color states.
 
 The script **never changes the tab title**.
 
